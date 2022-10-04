@@ -77,7 +77,42 @@ public class Notes_2D_Arrays {
 			System.out.println();
 			
 		}
+		System.out.println();
+		
 
+	
+		
+		
+		
+		/*
+		 * For Each Loops
+		 * 
+		 * Warning!!!
+		 *   You don't have an index!!!
+		 *   Can't change size of list
+		 */
+		
+		for (int[] row : nums2) {
+			for (int element: row) {
+				System.out.print(element + " ");
+				
+			}
+			System.out.println();
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
 	}
-
+	
+	
+	
 }
